@@ -1,0 +1,12 @@
+KVCTrampoline
+=============
+
+An experiment with KVC, Keyed Subscripting and Trampolines.
+
+Lets you write this:
+
+	someobject.kvc[@"somekey"] = @"somevalue";
+
+instead of:
+
+	[someobject setValue:somevalue forKey:@"somekey"];
