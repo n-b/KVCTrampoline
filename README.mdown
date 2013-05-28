@@ -10,3 +10,5 @@ Lets you write this:
 instead of:
 
 	[someobject setValue:somevalue forKey:@"somekey"];
+
+See the [related blog post on bou.io](http://bou.io/KVCTrampoline.html).
