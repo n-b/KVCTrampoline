@@ -14,5 +14,6 @@
 @end
 
 @interface NSObject (KVCTrampoline)
-@property (readonly) KVCTrampoline* kvc;
+@property (readonly, nonatomic) KVCTrampoline* kvc;
+@property (readonly, nonatomic) dispatch_once_t onceToken;
 @end
